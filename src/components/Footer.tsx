@@ -23,9 +23,9 @@ function Footer() {
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-links">
-            <a href="#" aria-label="Twitter">Twitter</a>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="https://x.com/VasanthiS32995" target="_blank" rel="noopener noreferrer" aria-label="Twitter">Twitter</a>
+            <a href="https://www.linkedin.com/in/vasanthisirikonda/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://github.com/VasanthiSirikonda" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
           </div>
         </div>
       </div>
