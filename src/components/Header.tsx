@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
+import logo from '../assets/logo_initials.png';
 
 function Header() {
   return (
@@ -7,7 +8,7 @@ function Header() {
       <div className="header-container">
         <div className="logo">
           <Link to="/" className="logo-link">
-            <span className="logo-icon">�</span>
+           <img src={logo} alt="Logo" className="logo-image" />
             <span className="logo-text">Vasanthi Sirikonda</span>
           </Link>
         </div>
