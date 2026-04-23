@@ -1,5 +1,6 @@
 .blog-page {
-  background: white;
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 .blog-header {
@@ -35,7 +36,7 @@
 .filter-section h3 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
-  color: #1a1a1a;
+  color: var(--text-color);
 }
 
 .category-button {
@@ -43,19 +44,19 @@
   width: 100%;
   padding: 0.75rem 1rem;
   margin-bottom: 0.5rem;
-  background: #f0f0f0;
+  background: var(--secondary-bg);
+  color: var(--text-color);
   border: 2px solid transparent;
   border-radius: 8px;
   cursor: pointer;
   text-align: left;
   transition: all 0.3s ease;
-  color: #1a1a1a;
   font-size: 0.95rem;
   font-weight: 500;
 }
 
 .category-button:hover {
-  background: #e8e8e8;
+  background: var(--card-bg);
   border-color: #667eea;
 }
 
@@ -78,7 +79,8 @@
 .no-posts {
   text-align: center;
   padding: 3rem;
-  color: #888;
+  color: var(--text-color);
+  opacity: 0.6;
 }
 
 .no-posts p {
@@ -98,7 +100,7 @@
   }
 
   .filter-section {
-    background: #f8f9fa;
+    background: var(--secondary-bg);
     padding: 1.5rem;
     border-radius: 12px;
   }
@@ -119,7 +121,7 @@
   }
 
   .filter-section {
-    background: white;
+    background: var(--card-bg);
     padding: 0;
   }
 }

@@ -1,11 +1,11 @@
 .personal {
-  background: white;
-  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
 }
 
 .personal-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
+  color: var(--card-bg);
   padding: 8rem 2rem;
   text-align: center;
   display: flex;
@@ -63,13 +63,13 @@
 .split-gallery-section,
 .timeline-section,
 .magazine-section {
-  background: white;
+  background: var(--card-bg);
 }
 
 .carousel-section,
 .video-gallery-section,
 .blur-reveal-section {
-  background: #f9f9f9;
+  background: var(--bg-alt);
 }
 
 .gallery-container {
@@ -88,7 +88,7 @@
 
 h2 {
   font-size: 2.5rem;
-  color: #1a1a1a;
+  color: var(--text);
   margin: 0 0 2rem 0;
 }
 
@@ -100,11 +100,11 @@ h2 {
 .layout-btn {
   padding: 0.75rem 1.5rem;
   border: 2px solid #ddd;
-  background: white;
+  background: var(--card-bg);
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
-  color: #666;
+  color: var(--text-light);
   transition: all 0.3s ease;
   font-size: 0.95rem;
 }
@@ -115,8 +115,8 @@ h2 {
 }
 
 .layout-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
+  color: var(--card-bg);
   border-color: #667eea;
   transform: scale(1.05);
 }
@@ -216,7 +216,7 @@ h2 {
 .category-info h3 {
   font-size: 1rem;
   font-weight: 700;
-  color: #1a1a1a;
+  color: var(--text);
   margin: 0.5rem 0 0.3rem;
   transition: color 0.3s ease;
 }
@@ -234,7 +234,7 @@ h2 {
   justify-content: center;
   gap: 0.3rem;
   font-size: 0.85rem;
-  color: #666;
+  color: var(--text-light);
 }
 
 .count-number {
@@ -321,7 +321,7 @@ h2 {
 }
 
 .instagram-caption p {
-  color: white;
+  color: var(--card-bg);
   font-size: 1.1rem;
   font-weight: 600;
   text-align: center;
@@ -368,7 +368,7 @@ h2 {
 }
 
 .flip-card-front {
-  background: white;
+  background: var(--card-bg);
 }
 
 .flip-card-front img {
@@ -379,8 +379,8 @@ h2 {
 }
 
 .flip-card-back {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
+  color: var(--card-bg);
   transform: rotateY(180deg);
   flex-direction: column;
   text-align: center;
@@ -463,7 +463,7 @@ h2 {
 
 .glass-content h3 {
   font-size: 1.2rem;
-  color: #1a1a1a;
+  color: var(--text);
   margin: 0;
   flex: 1;
 }
@@ -472,8 +472,8 @@ h2 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
+  color: var(--card-bg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -497,7 +497,7 @@ h2 {
   align-items: center;
   padding: 2rem;
   border-radius: 16px;
-  background: #f9f9f9;
+  background: var(--bg-alt);
   transition: all 0.3s ease;
 }
 
@@ -549,20 +549,20 @@ h2 {
 
 .split-info h3 {
   font-size: 1.8rem;
-  color: #1a1a1a;
+  color: var(--text);
   margin: 0 0 1rem 0;
 }
 
 .split-info p {
-  color: #666;
+  color: var(--text-light);
   font-size: 1rem;
   margin: 0 0 1.5rem 0;
   line-height: 1.6;
 }
 
 .view-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
+  color: var(--card-bg);
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
@@ -578,7 +578,7 @@ h2 {
 
 /* ===== CAROUSEL SECTION ===== */
 .carousel-section {
-  background: #f9f9f9;
+  background: var(--bg-alt);
 }
 
 .carousel-wrapper {
@@ -590,8 +590,8 @@ h2 {
 }
 
 .carousel-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
+  color: var(--card-bg);
   border: none;
   width: 50px;
   height: 50px;
@@ -629,12 +629,12 @@ h2 {
 
 .carousel-info h3 {
   font-size: 1.5rem;
-  color: #1a1a1a;
+  color: var(--text);
   margin: 0.5rem 0;
 }
 
 .carousel-info p {
-  color: #666;
+  color: var(--text-light);
   margin: 0;
 }
 
@@ -700,7 +700,7 @@ h2 {
   position: absolute;
   top: -40px;
   right: -40px;
-  background: white;
+  background: var(--card-bg);
   border: none;
   width: 40px;
   height: 40px;
@@ -720,7 +720,7 @@ h2 {
   top: 50%;
   transform: translateY(-50%);
   background: rgba(255, 255, 255, 0.3);
-  color: white;
+  color: var(--card-bg);
   border: none;
   font-size: 2rem;
   padding: 1rem;
@@ -743,7 +743,7 @@ h2 {
 }
 
 .lightbox-info {
-  color: white;
+  color: var(--card-bg);
   text-align: center;
   margin-top: 2rem;
 }
@@ -766,7 +766,7 @@ h2 {
 }
 
 .video-card {
-  background: white;
+  background: var(--card-bg);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -797,7 +797,7 @@ h2 {
 
 .video-card h3 {
   padding: 1.5rem;
-  color: #1a1a1a;
+  color: var(--text);
   margin: 0;
   font-size: 1.2rem;
 }
@@ -832,7 +832,7 @@ h2 {
 }
 
 .timeline-content {
-  background: white;
+  background: var(--card-bg);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -860,7 +860,7 @@ h2 {
 
 .timeline-content h3 {
   margin: 1rem 0 0.5rem 0;
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 .timeline-content p {
@@ -876,7 +876,7 @@ h2 {
   transform: translateX(-50%);
   width: 16px;
   height: 16px;
-  background: white;
+  background: var(--card-bg);
   border: 4px solid #667eea;
   border-radius: 50%;
   z-index: 10;
@@ -933,7 +933,7 @@ h2 {
 }
 
 .blur-text h3 {
-  color: white;
+  color: var(--card-bg);
   font-size: 1.3rem;
   margin: 0;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -982,13 +982,13 @@ h2 {
   justify-content: flex-end;
   align-items: flex-start;
   padding: 2rem;
-  color: white;
+  color: var(--card-bg);
 }
 
 .magazine-hero-text h2 {
   font-size: 2rem;
   margin: 0 0 0.5rem 0;
-  color: white;
+  color: var(--card-bg);
 }
 
 .magazine-hero-text p {
@@ -1014,7 +1014,7 @@ h2 {
 }
 
 .magazine-article:hover {
-  background: #f9f9f9;
+  background: var(--bg-alt);
   transform: translateX(10px);
 }
 
@@ -1037,7 +1037,7 @@ h2 {
 
 .article-text h3 {
   font-size: 1rem;
-  color: #1a1a1a;
+  color: var(--text);
   margin: 0 0 0.25rem 0;
 }
 
@@ -1050,13 +1050,13 @@ h2 {
 
 /* ===== MAP-BASED GALLERY ===== */
 .map-gallery-section {
-  background: #f9f9f9;
+  background: var(--bg-alt);
   padding: 4rem 2rem;
 }
 
 .map-subtitle {
   text-align: center;
-  color: #666;
+  color: var(--text-light);
   font-size: 1.1rem;
   margin-bottom: 3rem;
   max-width: 700px;
@@ -1072,7 +1072,7 @@ h2 {
 }
 
 .map-container {
-  background: white;
+  background: var(--card-bg);
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
@@ -1120,7 +1120,7 @@ h2 {
 
 .gmap-infowindow h4 {
   margin: 0 0 0.5rem 0;
-  color: #1a1a1a;
+  color: var(--text);
   font-size: 1rem;
   font-weight: 700;
 }
@@ -1128,7 +1128,7 @@ h2 {
 .gmap-infowindow p {
   margin: 0.3rem 0;
   font-size: 0.9rem;
-  color: #666;
+  color: var(--text-light);
 }
 
 .gmap-infowindow .location-desc {
@@ -1153,7 +1153,7 @@ h2 {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  border: 3px solid white;
+  border: 3px solid var(--card-bg);
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -1183,12 +1183,12 @@ h2 {
 /* Leaflet Popup Styling */
 .leaflet-popup-content-wrapper {
   border-radius: 12px;
-  background: white;
+  background: var(--card-bg);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
 }
 
 .leaflet-popup-tip {
-  background: white;
+  background: var(--card-bg);
 }
 
 .leaflet-popup-content {
@@ -1198,12 +1198,12 @@ h2 {
 }
 
 .leaflet-popup-content h4 {
-  color: #1a1a1a;
+  color: var(--text);
   font-size: 1rem;
 }
 
 .leaflet-popup-content p {
-  color: #666;
+  color: var(--text-light);
 }
 
 /* Leaflet Controls */
@@ -1312,7 +1312,7 @@ h2 {
 }
 
 .location-sidebar {
-  background: white;
+  background: var(--card-bg);
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
@@ -1368,7 +1368,7 @@ h2 {
 }
 
 .close-btn:hover {
-  background: #e0e0e0;
+  background: var(--border);
   transform: rotate(90deg);
 }
 
@@ -1390,7 +1390,7 @@ h2 {
 .location-header h3 {
   font-size: 1.5rem;
   margin: 0;
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 .location-desc {
@@ -1429,10 +1429,10 @@ h2 {
 
 .location-photo p {
   padding: 0.75rem;
-  background: #f9f9f9;
+  background: var(--bg-alt);
   margin: 0;
   font-size: 0.9rem;
-  color: #666;
+  color: var(--text-light);
   font-weight: 500;
 }
 
@@ -1444,7 +1444,7 @@ h2 {
 }
 
 .quick-location-card {
-  background: white;
+  background: var(--card-bg);
   padding: 1.5rem;
   border-radius: 12px;
   text-align: center;
@@ -1461,8 +1461,8 @@ h2 {
 }
 
 .quick-location-card.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
+  color: var(--card-bg);
   border-color: #667eea;
   transform: scale(1.05);
 }
@@ -1476,11 +1476,11 @@ h2 {
 .quick-location-card h4 {
   font-size: 1rem;
   margin: 0.5rem 0;
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 .quick-location-card.active h4 {
-  color: white;
+  color: var(--card-bg);
 }
 
 .quick-location-card p {

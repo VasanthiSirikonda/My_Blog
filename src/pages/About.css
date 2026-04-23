@@ -1,10 +1,11 @@
 .about {
-  background: white;
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 .about-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: var(--card-bg);
   padding: 3rem 2rem;
   text-align: center;
 }
@@ -34,7 +35,7 @@
   font-size: 2.2rem;
   margin-bottom: 3rem;
   text-align: center;
-  color: #1a1a1a;
+  color: var(--text-color);
 }
 
 .bio-content {
@@ -48,7 +49,8 @@
   font-size: 1.05rem;
   line-height: 1.8;
   margin-bottom: 1.5rem;
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
 }
 
 .bio-stats {
@@ -59,7 +61,7 @@
 
 .stat-card {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: var(--card-bg);
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
@@ -86,12 +88,13 @@
   font-size: 2.2rem;
   margin-bottom: 1rem;
   text-align: center;
-  color: #1a1a1a;
+  color: var(--text-color);
 }
 
 .album-subtitle {
   font-size: 1.1rem;
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
   text-align: center;
   max-width: 700px;
   margin: 0 auto 2rem;
@@ -110,23 +113,23 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: #f0f0f0;
+  background: var(--secondary-bg);
   border: 2px solid transparent;
   border-radius: 25px;
   cursor: pointer;
   font-size: 0.95rem;
   font-weight: 500;
   transition: all 0.3s ease;
-  color: #1a1a1a;
+  color: var(--text-color);
 }
 
 .filter-btn:hover {
-  background: #e0e0e0;
+  background: var(--secondary-bg);
 }
 
 .filter-btn.active {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: var(--card-bg);
   border-color: #667eea;
   transform: scale(1.05);
 }
@@ -152,7 +155,7 @@
 }
 
 .album-card {
-  background: white;
+  background: var(--card-bg);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -186,7 +189,8 @@
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {
@@ -203,7 +207,7 @@
 
 .album-date {
   display: inline-block;
-  background: #f0f0f0;
+  background: var(--secondary-bg);
   color: #667eea;
   padding: 0.35rem 0.75rem;
   border-radius: 20px;
@@ -216,12 +220,13 @@
 .album-card h3 {
   font-size: 1.25rem;
   margin: 0.75rem 0;
-  color: #1a1a1a;
+  color: var(--text-color);
   line-height: 1.4;
 }
 
 .album-card p {
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0 0 1rem;
@@ -231,7 +236,7 @@
 .album-category-badge {
   display: inline-block;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: var(--card-bg);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -256,7 +261,7 @@
 .stat-card {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
-  color: white;
+  color: var(--card-bg);
   padding: 2rem;
   border-radius: 16px;
   text-align: center;
@@ -286,7 +291,7 @@
 /* Content Section */
 .content-section {
   padding: 4rem 2rem;
-  background: white;
+  background: var(--card-bg);
 }
 
 .content-section .container {
@@ -299,7 +304,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid var(--secondary-bg);
   flex-wrap: wrap;
 }
 
@@ -310,7 +315,8 @@
   border-bottom: 3px solid transparent;
   font-size: 1rem;
   font-weight: 600;
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
@@ -344,10 +350,10 @@
 
 .section-content h3 {
   font-size: 1.8rem;
-  color: #1a1a1a;
+  color: var(--text-color);
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid var(--secondary-bg);
 }
 
 /* Experience Section */
@@ -358,7 +364,7 @@
 }
 
 .experience-card {
-  background: #f9f9f9;
+  background: var(--secondary-bg);
   border-left: 4px solid #667eea;
   padding: 2rem;
   border-radius: 8px;
@@ -366,7 +372,7 @@
 }
 
 .experience-card:hover {
-  background: #f0f0f0;
+  background: var(--secondary-bg);
   transform: translateX(5px);
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.1);
 }
@@ -381,7 +387,7 @@
 
 .experience-header h4 {
   font-size: 1.4rem;
-  color: #1a1a1a;
+  color: var(--text-color);
   margin: 0;
 }
 
@@ -393,7 +399,7 @@
 }
 
 .experience-period {
-  background: white;
+  background: var(--card-bg);
   color: #667eea;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -409,10 +415,10 @@
 }
 
 .project-item {
-  background: white;
+  background: var(--card-bg);
   padding: 1.5rem;
   border-radius: 8px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--secondary-bg);
 }
 
 .project-item h5 {
@@ -423,7 +429,8 @@
 
 .project-period {
   font-size: 0.85rem;
-  color: #999;
+  color: var(--text-color);
+  opacity: 0.5;
   margin: 0 0 1rem;
 }
 
@@ -437,7 +444,8 @@
 }
 
 .highlights li {
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
   font-size: 0.95rem;
   line-height: 1.6;
   padding-left: 1.5rem;
@@ -445,7 +453,7 @@
 }
 
 .highlights li:before {
-  content: '✓';
+  content: "✓";
   position: absolute;
   left: 0;
   color: #667eea;
@@ -460,15 +468,15 @@
 }
 
 .skill-category {
-  background: #f9f9f9;
+  background: var(--secondary-bg);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--secondary-bg);
   transition: all 0.3s ease;
 }
 
 .skill-category:hover {
-  background: white;
+  background: var(--card-bg);
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.1);
   border-color: #667eea;
 }
@@ -488,7 +496,7 @@
 
 .skill-tag {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: var(--card-bg);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -510,7 +518,7 @@
 }
 
 .education-card {
-  background: #f9f9f9;
+  background: var(--secondary-bg);
   padding: 2rem;
   border-radius: 12px;
   border-left: 4px solid #667eea;
@@ -518,7 +526,7 @@
 }
 
 .education-card:hover {
-  background: white;
+  background: var(--card-bg);
   transform: translateX(5px);
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.1);
 }
@@ -533,12 +541,12 @@
 
 .education-header h4 {
   font-size: 1.3rem;
-  color: #1a1a1a;
+  color: var(--text-color);
   margin: 0;
 }
 
 .education-year {
-  background: white;
+  background: var(--card-bg);
   color: #667eea;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -555,7 +563,8 @@
 }
 
 .location {
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
   font-size: 0.9rem;
   margin: 0.3rem 0;
 }
@@ -567,10 +576,10 @@
 }
 
 .certifications-section {
-  background: white;
+  background: var(--card-bg);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--secondary-bg);
 }
 
 .certifications-section h4 {
@@ -589,7 +598,8 @@
 }
 
 .certifications-list li {
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
   font-size: 0.95rem;
   padding-left: 0;
 }
@@ -602,7 +612,7 @@
 }
 
 .project-card {
-  background: #f9f9f9;
+  background: var(--secondary-bg);
   padding: 2rem;
   border-radius: 12px;
   border-left: 4px solid #667eea;
@@ -612,7 +622,7 @@
 }
 
 .project-card:hover {
-  background: white;
+  background: var(--card-bg);
   transform: translateY(-8px);
   box-shadow: 0 12px 30px rgba(102, 126, 234, 0.2);
 }
@@ -620,7 +630,7 @@
 .project-type {
   display: inline-block;
   background: #667eea;
-  color: white;
+  color: var(--card-bg);
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   font-size: 0.75rem;
@@ -632,12 +642,13 @@
 
 .project-card h4 {
   font-size: 1.2rem;
-  color: #1a1a1a;
+  color: var(--text-color);
   margin: 0.5rem 0 1rem;
 }
 
 .project-card p {
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
@@ -645,14 +656,14 @@
 
 /* Interests Section */
 .interests-section {
-  background: #f8f9fa;
+  background: var(--secondary-bg);
   padding: 4rem 2rem;
 }
 
 .interests-section h2 {
   font-size: 2.2rem;
   text-align: center;
-  color: #1a1a1a;
+  color: var(--text-color);
   margin-bottom: 3rem;
 }
 
@@ -665,7 +676,7 @@
 }
 
 .interest-card {
-  background: white;
+  background: var(--card-bg);
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
@@ -686,12 +697,13 @@
 
 .interest-card h4 {
   font-size: 1.3rem;
-  color: #1a1a1a;
+  color: var(--text-color);
   margin-bottom: 0.75rem;
 }
 
 .interest-card p {
-  color: #666;
+  color: var(--text-color);
+  opacity: 0.7;
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
@@ -700,7 +712,7 @@
 /* CTA Section */
 .cta-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: var(--card-bg);
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -708,7 +720,7 @@
 .cta-section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: white;
+  color: var(--card-bg);
 }
 
 .cta-section p {
@@ -719,7 +731,7 @@
 
 .cta-button {
   display: inline-block;
-  background: white;
+  background: var(--card-bg);
   color: #667eea;
   padding: 1rem 2rem;
   border-radius: 8px;

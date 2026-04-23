@@ -1,5 +1,5 @@
 .contact {
-  background: white;
+  background: var(--bg);
   padding: 3rem 2rem;
 }
 
@@ -11,14 +11,14 @@
 .contact h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #1a1a1a;
+  color: var(--text);
   text-align: center;
 }
 
 .contact-intro {
   text-align: center;
   font-size: 1.1rem;
-  color: #666;
+  color: var(--text-light);
   margin-bottom: 3rem;
   max-width: 600px;
   margin-left: auto;
@@ -34,7 +34,7 @@
 .contact-info h2 {
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 .info-item {
@@ -50,17 +50,17 @@
 
 .info-item h3 {
   font-size: 1.1rem;
-  color: #1a1a1a;
+  color: var(--text);
   margin-bottom: 0.5rem;
 }
 
 .info-item p {
-  color: #666;
+  color: var(--text-light);
   line-height: 1.6;
 }
 
 .info-item a {
-  color: #667eea;
+  color: var(--primary);
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -70,7 +70,7 @@
 }
 
 .contact-form {
-  background: #f8f9fa;
+  background: var(--bg-alt);
   padding: 2rem;
   border-radius: 12px;
   display: flex;
@@ -94,7 +94,7 @@
 
 .form-group label {
   font-weight: 600;
-  color: #1a1a1a;
+  color: var(--text);
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
 }
@@ -107,7 +107,7 @@
   font-family: inherit;
   font-size: 1rem;
   transition: all 0.3s ease;
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 .form-group input:focus,
