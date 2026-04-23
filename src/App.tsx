@@ -12,6 +12,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 
 import './App.css';
+import FloatingContact from './components/FloatingContact';
 
 // ✅ Theme type
 type Theme = "light" | "dark";
@@ -58,8 +59,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+        <FloatingContact />
 
         <Footer />
+        
       </div>
     </Router>
   );
