@@ -49,8 +49,8 @@
 
 /* Replace logo-icon with image */
 .logo-image {
-  width: 65px;
-  height: 55px;
+  width: 55px;
+  height: 40px;
   object-fit: contain;
   border-radius: 50%; /* optional: makes it circular */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
