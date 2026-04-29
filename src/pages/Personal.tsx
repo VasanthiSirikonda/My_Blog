@@ -14,7 +14,7 @@ function Personal() {
     // Friends
     {
       id: 1,
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop',
+      image: 'https://ik.imagekit.io/vasanthi/my_blog/beach1.jpeg',
       caption: 'Adventure Awaits',
       category: 'friends',
       height: 'tall'
@@ -29,14 +29,14 @@ function Personal() {
     // Family
     {
       id: 3,
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop',
+      image: 'https://ik.imagekit.io/vasanthi/my_blog/hills1.jpeg',
       caption: 'Golden Hour',
       category: 'family',
       height: 'tall'
     },
     {
       id: 4,
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop',
+      image: 'https://ik.imagekit.io/vasanthi/my_blog/hills3.jpeg',
       caption: 'Sunset Vibes',
       category: 'family',
       height: 'medium'
@@ -44,7 +44,7 @@ function Personal() {
     // Travel
     {
       id: 5,
-      image: 'https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=500&h=500&fit=crop',
+      image: 'https://ik.imagekit.io/vasanthi/my_blog/hf1.jpeg',
       caption: 'City Lights',
       category: 'travel',
       height: 'tall'
@@ -59,7 +59,7 @@ function Personal() {
     // Memories
     {
       id: 7,
-      image: 'https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=500&h=500&fit=crop',
+      image: 'https://ik.imagekit.io/vasanthi/my_blog/beach2.jpeg',
       caption: 'Beach Days',
       category: 'memories',
       height: 'tall'
